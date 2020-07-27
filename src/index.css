@@ -1,13 +1,71 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&family=Poppins:wght@400;700&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans";
+}
+.container{
+  width: 85% !important;
+}
+section{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*TYPOGRAPHY STYLES*/
+/* 
+h3{
+  font-family: "Poppins";
+  font-weight: bold !important;
+  font-size: 52px !important;
+  line-height: 1.4em !important;
+  color: #2B2D42;
+} */
+.section__title{
+  font-weight: bold;
+  font-size: 56px;
+  color: #2b2d42;
+  padding-bottom: 50px;
+}
+
+p.flow-text{
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-size: 24px;
+  color: #BDBDBD;
+}
+
+
+@media screen and (max-width: 600px){
+  section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  h3{
+    font-family: "Poppins";
+    font-weight: bold !important;
+    font-size: 36px !important;
+    line-height: 3rem !important;
+    /*line-height: 1.4em !important;*/
+    color: #2B2D42;
+
+  }
+  .section__title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #2b2d42;
+    padding-bottom: 20px;
+  }
+  p.flow-text{
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-size: 16px;
+    color: #BDBDBD;
+  }
 }

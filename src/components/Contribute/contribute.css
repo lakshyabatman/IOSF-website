@@ -1,0 +1,66 @@
+.contribute__section{
+    background-color: rgba(217, 228, 232, 0.6);
+}
+.contributeSectionContent{
+    font-size: 24px;
+    text-align: center;
+    color: #4D4D4D;
+    font-weight: lighter;
+}
+.contributeSectionBanner{
+    background-image: url("/img/develop.svg");
+    height: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.productCard{
+    background-color: rgba(217, 228, 232, 0.8);
+    color: #4d4d4d;
+    font-size: 18px;
+    font-weight: lighter;
+    border-top-right-radius: 50px;
+    position: relative;
+    padding-top: 70px;
+}
+.productProgressTag{
+    position: absolute;
+    background-color: #3949ab;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    right: -15px;
+    top: 10px;
+}
+.productAvatar{
+    position: absolute;
+    left: -50px;
+    top: -50px;
+}
+.product__contribute__btn.btn{
+    font-family: "Nunito Sans";
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px){
+    .contributeSectionContent{
+        font-size: 18px;
+        text-align: center;
+        color: #4D4D4D;
+        font-weight: lighter;
+    }
+    .contributeSectionBanner{
+        background-image: url("/img/develop.svg");
+        height: 200px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}

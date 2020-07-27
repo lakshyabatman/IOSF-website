@@ -1,0 +1,69 @@
+.bootcampsBannerSection{
+    background-color: rgba(217, 4, 41, 0.7);
+}
+
+.bootcampsBannerSectionImage{
+    background-image: url("/img/coding_bootcamp.png");
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bootcampsBannerSectionContent{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+
+.bootcampsBannerSectionEnrollButton{
+    background-color: #2B2D42;
+    border-radius: 10px;
+    font-family: "Nunito Sans";
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.bootcampsBannerSectionEnrollButton:hover{
+    background-color: #2B2D42;
+    border-radius: 10px;
+    font-family: "Nunito Sans";
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 600px){
+    .bootcampsBannerSectionEnrollButton{
+        background-color: #2B2D42;
+        border-radius: 10px;
+        font-family: "Nunito Sans";
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 50px;
+        height: 50px;
+        padding: 0 25px;
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .bootcampsBannerSectionEnrollButton:hover{
+        background-color: #2B2D42;
+        border-radius: 10px;
+        font-family: "Nunito Sans";
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        line-height: 50px;
+        height: 50px;
+        padding: 0 25px;
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
