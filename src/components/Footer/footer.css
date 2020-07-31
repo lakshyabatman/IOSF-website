@@ -1,111 +1,44 @@
-footer{
-    font-size: 18px;
-    /*font-weight: lighter;*/
+.footer{
+    background-color: #2b2d42 !important;
+    padding-top: 100px !important;
 }
-footer .page-footer{
-    padding-top: 100px;
-    /*padding-bottom: 50px;*/
-    background-color: rgba(43, 45, 66, 0.97) !important;
-    /*background-color: #2B2D42 !important;*/
+.footer blockquote {
+    background-color: rgba(43,45,66) !important;
+    font-size: 24px !important;
+    color: #eeeeee !important;
+    font-style: italic;
+    font-weight: lighter !important;
+    margin-bottom: 100px !important;
 }
-
-footer h5{
-    font-family: "Nunito Sans";
-    font-weight: bold;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    color: #e0e0e0;
+.footer blockquote strong{
+    color: #eeeeee !important;
 }
-blockquote {
-    margin: 20px 0;
-    padding-left: 1.5rem;
-    border-left: 5px solid #ef233c;
-    color: #eeeeee;
-    font-weight: lighter;
-    font-size: 24px;
-    text-align: center;
-}
-
-form{
-    padding: 20px;
-    background-color: rgba(43, 45, 66, 1);
-}
-
-form input{
-    color: #eeeeee;
-}
-form button{
-    font-family: "Nunito Sans";
-    font-weight: bold;
+.footer blockquote .footer__joinUsBtn{
+    display: block !important;
+    margin-top: 50px !important;
+    width: 20%;
+    margin: 0px auto;
     font-size: 16px;
-    letter-spacing: 0.1em;
+    font-weight: bolder !important;
 }
-
-
-.joinUsBtnLarge.btn{
-    font-family: "Nunito Sans";
-    font-weight: bold;
-    font-size: 18px;
-    background-color: #EF233C;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    border-radius: 10px;
-    letter-spacing: 0.1em;
+.footer h4{
+    font-size: 28px !important;
+    color: white !important;
 }
-.joinUsBtnLarge.btn:hover{
-    font-family: "Nunito Sans";
-    font-weight: bold;
-    font-size: 18px;
-    background-color: #EF233C;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    border-radius: 10px;
-    letter-spacing: 0.1em;
+.footer__links li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
-.footer-copyright{
-    margin-top: 50px;
+.footer__links li a{
+    color: #eeeeee !important;
+    font-size: 18px !important;
 }
-
-
-
-@media screen and (max-width: 600px) {
-    footer{
-        font-size: 16px;
-    }
-
-    blockquote {
-        margin: 20px 0;
-        padding-left: 1.5rem;
-        border-left: 5px solid #ef233c;
-        color: #eeeeee;
-        font-weight: lighter;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .joinUsBtnLarge.btn{
-        font-family: "Nunito Sans";
-        font-weight: bold;
-        font-size: 18px;
-        background-color: #EF233C;
-        margin-top: 20px;
-        margin-bottom: 100px;
-        border-radius: 10px;
-        letter-spacing: 0.1em;
-        width: 50%;
-        height: 36px;
-        line-height: 36px;
-        padding: 0px 18px;
-        font-size: 14px;
-    }
-    .joinUsBtnLarge.btn:hover{
-        font-family: "Nunito Sans";
-        font-weight: bold;
-        font-size: 14px;
-        background-color: #EF233C;
-        margin-top: 20px;
-        margin-bottom: 100px;
-        border-radius: 10px;
-        letter-spacing: 0.1em;
-    }
+.footer__socialLinks a{
+    margin: 10px;
+    padding: 10px;
+}
+.footer__socialLinks a i{
+    font-size: 24px !important;
+    color: #eeeeee !important
 }

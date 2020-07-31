@@ -2,14 +2,23 @@
     position: relative;    
 }
 
-.product__card img {
+.product__card .card{
+    padding: 30px;
+}
+
+.product__card .card img {
     height: 150px !important;
     width: 150px !important;
 }
 
-.product__card h6{
+.product__card .card h6{
     font-size: 28px;
+    font-weight: bolder;
+    color: #2b2d42 !important;
     margin-top: 30px;
+}
+.product__card .card p{
+    font-size: 16px !important;
 }
 
 .product__avatar{
@@ -20,6 +29,13 @@
 .product__contributeBtn{
     margin-top: 30px;
     letter-spacing: 0.1em;
+    display: block !important;
+    width: 100%;
+    font-weight: bolder;
+}
+.product__contributeBtn i{
+    font-size: 14px;
+    margin-right: 5px;
 }
 .product__progressTag{
     position: absolute;

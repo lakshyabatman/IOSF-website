@@ -15,6 +15,7 @@ header{
 .header__heroHeading{
     font-size: 64px !important;
     font-weight: bolder;
+    color: #2b2d42 !important;
 }
 .header__heroSubheading{
     font-size: 28px;
@@ -31,6 +32,10 @@ header{
     letter-spacing: 0.1em;
     font-weight: bold;
 }
+.header__heroJoinUsBtn i {
+    margin-left: 10px;
+    color: white !important;
+}
 .header__heroOurProductsBtn{
     background-color: white !important;
     color: #ef233c !important;
@@ -43,6 +48,10 @@ header{
 .togetherLetsTitle{
     font-size: 56px !important;
     color: #c0c0c0 !important;
+    text-align: left !important;
+}
+.togetherLets__cardContainer{
+    text-align: center;
 }
 
 @media screen and (max-width: 600px){

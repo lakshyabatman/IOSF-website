@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import LearningPaths from "./components/LearningPaths/LearningPaths";
 import Bootcamps from "./components/Bootcamps/Bootcamps";
 import Contribute from "./components/Contribute/Contribute";
+import AppFooter from './components/Footer/AppFooter';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <LearningPaths />
       <Bootcamps />
       <Contribute />
+      <AppFooter />
     </div>
   );
 }

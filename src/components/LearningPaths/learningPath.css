@@ -1,16 +1,21 @@
 .learningpath__section{
-    background-color: rgba(217,228,232, 0.5);
+    /* background-color: rgba(217,228,232, 0.5); */
+    background-color: #eeeeee;
 }
 .learningpath__boxContainer .box{
-    background-color: rgba(217,228,232, 0.7) !important;
+    /* background-color: rgba(217,228,232, 0.7) !important; */
+    background-color: #eeeeee !important;
+    padding: 70px;
 }
 .learningpath__boxContainer .box h3{
     font-size: 32px !important;
-    font-weight: 400;
+    font-weight: bolder;
+    color: #4d4d4d!important;
 }
 .learningpath__boxContainer p{
     font-size: 20px !important;
     font-weight: lighter;
+    margin-top: 30px;
     margin-left: 0;
     padding-left: 0;
 }
@@ -22,4 +27,9 @@
     letter-spacing: 0.1em;
     font-weight: bolder;
     font-size: 14px !important;
+}
+.learningpath__getStartedBtn i {
+    font-size: 14px;
+    color: white !important;
+    margin-left: 10px;
 }

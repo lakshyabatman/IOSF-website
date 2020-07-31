@@ -20,7 +20,7 @@ class LearningPaths extends React.Component{
                     <h3>Beginner Friendly Path</h3>
                       <p>This path is specially designed for those who have little or zero experience in computer programming and open source.</p>
                       <p>We will cover JavaScript, Python and Version Control (Git) form scratch and kick off by contributing to small yet interesting projects.</p>
-                    <Button className="learningpath__getStartedBtn">GET STARTED</Button>
+                    <Button className="learningpath__getStartedBtn">GET STARTED <i className="fas fa-arrow-right"></i></Button>
                   </Columns.Column>
                 </Columns>
               </Box>
@@ -30,7 +30,7 @@ class LearningPaths extends React.Component{
                   <h3>Hands-on Code Path</h3>
                      <p>This path is a step further, we will use our programming skills and logic to contribute and build products that will solve a real-life problem.</p>
                      <p>Contribute to our source code and help us build better products</p>
-                   <Button className="learningpath__getStartedBtn">GET STARTED</Button>
+                   <Button className="learningpath__getStartedBtn">GET STARTED <i className="fas fa-arrow-right"></i></Button>
                   </Columns.Column>
                   <Columns.Column size={5}>
                     <img src="/img/advanced-path.svg" />

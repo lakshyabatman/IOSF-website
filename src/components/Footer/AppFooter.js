@@ -1,33 +1,33 @@
 import React from "react";
 import "./footer.css"
+import { Footer, Content, Container, Columns, Button} from 'react-bulma-components'
 
-class Footer extends React.Component{
+class AppFooter extends React.Component{
   render() {
     const date = new Date();
 
     return(
-      <footer>
-        <div className="page-footer">
-          <div className="container">
+      <Footer>
+        <Container>
+          <Content>
             <blockquote>
-              Join us as a contributor and associate with us in our journey for making Open Source Contribution lit 🔥 and super powerful for the budding and already existing developer community.
+              Join us as a contributor and associate with us in our journey for making <strong>Open Source Contribution</strong> lit 🔥 and super powerful for the budding and already existing developer community.
+              <Button className="footer__joinUsBtn" size="medium">JOIN US</Button>
             </blockquote>
-            <div className="center">
-              <button className="joinUsBtnLarge btn btn-large z-depth-0">JOIN US</button>
-            </div>
-            <div className="row">
-              <div className="col l4 m12 s12">
-                <h5>Subscribe</h5>
-                <form action="">
-                  <div className="input-field">
-                    <input type="text" placeholder="Email, e.g foo@bar.com"/>
+            <Columns>
+              <Columns.Column>
+                <h4>Subscribe</h4>
+                <form>
+                  <div className="field">
+                    <div className="control">
+                      <input className="input" />
+                    </div>  
                   </div>
-                  <button type="submit" className="btn z-depth-0 grey">SUBSCRIBE</button>
                 </form>
-              </div>
-              <div className="col l3 offset-l1 m12 s12">
-                <h5>General Links</h5>
-                <ul className="">
+              </Columns.Column>
+              <Columns.Column>
+              <h4>General Links</h4>
+              <ul className="footer__links">
                   <li>
                     <a className="footer-link grey-text text-lighten-1" href=""
                     >About</a
@@ -54,28 +54,24 @@ class Footer extends React.Component{
                     >
                   </li>
                 </ul>
-              </div>
-              <div className="col l3 offset-l1 m12 s12">
-                <h5>Connect</h5>
+              </Columns.Column>
+              <Columns.Column>
+                <h4>Connect</h4>
+                <div className="footer__socialLinks">
                 <a href="https://www.facebook.com/iosfindia/" className="btn btn-floating z-depth-0 facebook transparent grey-text"><i class="fab grey-text fa-facebook-f"></i></a>
                 <a href="https://twitter.com/iosf_india" className="btn btn-floating z-depth-0 twitter transparent grey-text"><i class="fab grey-text fa-twitter"></i></a>
                 <a href="https://www.instagram.com/iosf_india/" className="btn btn-floating z-depth-0 instagram transparent grey-text"><i class="fab grey-text fa-instagram"></i></a>
                 <a href="https://www.linkedin.com/company/iosf/" className="btn btn-floating z-depth-0 linkedin transparent grey-text"><i class="fab grey-text fa-linkedin"></i></a>
                 <a href="https://github.com/IndianOpenSourceFoundation" className="btn btn-floating z-depth-0 github transparent grey-text"><i class="fab grey-text fa-github"></i></a>
-            </div>
-          </div>
-        </div>
-        <div className="footer-copyright">
-          <div className="container">
-            <div className="">
-              &copy; Indian Open Source Foundation, {date.getFullYear()}. Made for the <span className="red-text text-accent-2"><i className="fas fa-heart"></i></span> of open source.
-            </div>
-          </div>
-        </div>
-      </div>
-  </footer>
+                </div>
+              </Columns.Column>
+            </Columns>
+          </Content>
+        </Container>
+      </Footer>
     )
+
   }
 }
 
-export default Footer;
+export default AppFooter;

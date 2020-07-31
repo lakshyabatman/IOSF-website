@@ -33,7 +33,7 @@ class Contribute extends React.Component{
       // </section>
       <Section className="products__section">
         <Container>
-          <h2 className="section__title">Contribute to real-world projects</h2>
+          <h2 className="section__title">Contribute to Real-World Projects</h2>
           <Columns>
             <Columns.Column size={4}>
               <div className="product__card">
@@ -43,7 +43,7 @@ class Contribute extends React.Component{
                   <span className="product__progressTag">ON-GOING</span>
                   <h6>Dynamic CLI</h6>
                   <span>A CLI utility that can connect to an external databases, also fetch suggestions from different dev communities like stackoverflow and reddit.</span>
-                  <Button className="product__contributeBtn" size="small">CONTRIBUTE</Button>
+                  <Button className="product__contributeBtn" size="small"><i class="fab grey-text fa-github"></i> CONTRIBUTE</Button>
                 </Card.Content>
               </Card>
               </div>
