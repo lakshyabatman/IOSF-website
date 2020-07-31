@@ -12,6 +12,6 @@ Wanna take your open source journey ahead ? Be the contributor and embark on bec
 * Star this repository
 * Wait for Pull Request to merge.
 
-## How to become a  this repository
+## How to become a contributor ?
 1. Make consistent contributions via pull requests.
 2. Request to be a maintainer from the IOSF admins, which will grant edit rights and request access to the site.
