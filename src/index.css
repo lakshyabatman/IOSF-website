@@ -19,11 +19,25 @@
   font-weight: bolder;
 }
 
+.button{
+  font-family: "Nunito Sans" !important;
+}
 
 @media screen and (max-width: 600px){
   .container{
     max-width: 90% !important;
     margin: 0px auto;
+  }
+  .section__title{
+    font-size: 32px !important;
+    text-align: center;
+    color: #2b2d42 !important;
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+    font-weight: bolder;
+  }
+  p{
+    font-size: 16px !important;
   }
 }
 

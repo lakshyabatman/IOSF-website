@@ -12,7 +12,7 @@ class AppFooter extends React.Component{
           <Content>
             <blockquote>
               Join us as a contributor and associate with us in our journey for making <strong>Open Source Contribution</strong> lit 🔥 and super powerful for the budding and already existing developer community.
-              <Button className="footer__joinUsBtn" size="medium">JOIN US</Button>
+              <Button className="footer__joinUsBtn" size="medium">JOIN US <i class="fas fa-arrow-right"></i></Button>
             </blockquote>
             <Columns>
               <Columns.Column>
@@ -20,7 +20,7 @@ class AppFooter extends React.Component{
                 <form>
                   <div className="field">
                     <div className="control">
-                      <input className="input" />
+                      <input className="input" placeholder="Enter your email, foo@bar.com" />
                     </div>  
                   </div>
                 </form>

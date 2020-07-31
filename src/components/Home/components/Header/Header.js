@@ -24,6 +24,13 @@ class Header extends React.Component{
                 </Content>
               </div>
             </Container>
+            {/* <div className="header__heroSocialLinks">
+              <a href="https://www.facebook.com/iosfindia/" className="btn btn-floating z-depth-0 facebook transparent grey-text"><i class="fab grey-text fa-facebook-f"></i></a>
+              <a href="https://twitter.com/iosf_india" className="btn btn-floating z-depth-0 twitter transparent grey-text"><i class="fab grey-text fa-twitter"></i></a>
+              <a href="https://www.instagram.com/iosf_india/" className="btn btn-floating z-depth-0 instagram transparent grey-text"><i class="fab grey-text fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/iosf/" className="btn btn-floating z-depth-0 linkedin transparent grey-text"><i class="fab grey-text fa-linkedin"></i></a>
+              <a href="https://github.com/IndianOpenSourceFoundation" className="btn btn-floating z-depth-0 github transparent grey-text"><i class="fab grey-text fa-github"></i></a>
+            </div> */}
         </header>
         <Section>
           <Container>
