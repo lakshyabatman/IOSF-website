@@ -1,20 +1,15 @@
 import React from 'react'
 import "./navbar.css"
 
-import M from "materialize-css"
+import { Navbar } from "react-bulma-components";
 
 
-class Navbar extends React.Component{
-
-  componentDidMount(){
-    let sidenav = document.querySelectorAll(".sidenav")
-    M.Sidenav.init(sidenav);
-  }
+class AppNavbar extends React.Component{
 
   render(){
     return(
       <div>
-        <div className="navbar-fixed ">
+        {/* <div className="navbar-fixed ">
           <nav>
             <div className="nav nav-wrapper z-depth-1-half white">
               <ul className="right hide-on-med-and-down">
@@ -39,8 +34,29 @@ class Navbar extends React.Component{
             <li><a className="nav__joinus__btn btn z-depth-0" href="">JOIN US</a></li>
           </ul>
           
-        </div>
+        </div> */}
 
+        <Navbar fixed="top">
+          <Navbar.Brand>
+            <Navbar.Item>
+              <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
+            </Navbar.Item>
+            <Navbar.Burger />
+          </Navbar.Brand>
+          <Navbar.Menu>
+            <Navbar.Container position="end">
+            <Navbar.Item href="#">
+              Learning Paths
+            </Navbar.Item>
+            <Navbar.Item href="#">
+              Our Products
+            </Navbar.Item>
+            <Navbar.Item href="#">
+              Blogs
+            </Navbar.Item>
+            </Navbar.Container>
+          </Navbar.Menu>
+        </Navbar>
 
       </div>
       
@@ -48,4 +64,4 @@ class Navbar extends React.Component{
   }
 }
 
-export default Navbar;
+export default AppNavbar;

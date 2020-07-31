@@ -1,154 +1,25 @@
-.learning__path__section{
-    background-color: rgba(217, 228, 232, 0.6);
+.learningpath__section{
+    background-color: rgba(217,228,232, 0.5);
 }
-.learning__paths__container h5{
-    font-weight: bold;
-    color: #4d4d4d;
+.learningpath__boxContainer .box{
+    background-color: rgba(217,228,232, 0.7) !important;
 }
-.beginnerfriendly__path__container, .handson__path_container{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 30px;
-    background-color: rgba(217, 228, 232, 0.8);
+.learningpath__boxContainer .box h3{
+    font-size: 32px !important;
+    font-weight: 400;
 }
-
-.beginnerfriendly__path__banner{
-    background-image: url("/img/beginner-fiendly.svg");
-    background-position: center;
-    background-size: cover;
-    height: 300px;
-}
-.beginnerfriendly__path__content{
-    color: #4D4D4D;
+.learningpath__boxContainer p{
+    font-size: 20px !important;
     font-weight: lighter;
+    margin-left: 0;
+    padding-left: 0;
 }
-.beginnerfriendly__path__container h5{
+.learningpath__getStartedBtn{
+    margin-top: 30px;
+    background-color: #2b2d42 !important;
+    border: 1px solid #2b2d42 !important;
+    color: white !important;
+    letter-spacing: 0.1em;
     font-weight: bolder;
-}
-.beginnerfriendly__path__content ul li{
-    padding-top: 10px;
-    list-style-type: disc;
-    font-size: 20px;
-}
-
-
-.advancedPathBanner{
-    background-image: url("/img/advanced-path.svg");
-    background-position: center;
-    background-size: cover;
-    height: 300px;
-}
-.advancedPathBannerSmall{
-    display: none;
-}
-.handson__path_container h5{
-    font-weight: bold;
-}
-
-.handson__path_content{
-    color: #4D4D4D;
-    font-weight: lighter;
-}
-
-.handson__path_content ul li {
-    padding-top: 10px;
-    list-style-type: disc;
-    font-size: 20px;
-}
-
-.join__path__btn.btn{
-    margin-top: 30px;
-    background-color: #2B2D42;
-    border: 1px solid #2B2D42;
-    color: #FFFFFF;
-    letter-spacing: 0.1em;
-    border-radius: 5px;
-    font-weight: bold;
-    font-family: "Nunito Sans";
-}
-
-.join__path__btn:hover{
-    margin-top: 30px;
-    background-color: #2B2D42;
-    border: 1px solid #2B2D42;
-    color: #FFFFFF;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-    border-radius: 5px;
-    font-family: "Nunito Sans";
-}
-
-
-@media screen and (max-width: 600px){
-    .beginnerfriendly__path__container, .handson__path_container{
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .beginnerFriendlyPathBanner{
-        background-image: url("/img/beginner-fiendly.svg");
-        background-position: center;
-        background-size: cover;
-        height: 200px;
-        margin-bottom: 30px;
-        margin-top: 30px;
-    }
-    .beginnerfriendly__path__content ul li{
-        font-size: 16px;
-        color: #4D4D4D;
-        font-weight: lighter;
-        margin-top: 30px;
-    }
-
-    .advancedPathBannerSmall{
-        display: block;
-        background-image: url("/img/advanced-path.svg");
-        background-position: center;
-        background-size: cover;
-        height: 200px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    .advancedPathBanner{
-        display: none;
-    }
-    .handson__path_content ul li{
-        font-size: 14px;
-        color: #4D4D4D;
-        font-weight: lighter;
-        margin-top: 30px;
-    }
-
-    .join__path__btn.btn{
-        margin-top: 30px;
-        background-color: #2B2D42;
-        border: 1px solid #2B2D42;
-        color: #FFFFFF;
-        letter-spacing: 0.1em;
-        border-radius: 5px;
-        font-weight: bold;
-        font-family: "Nunito Sans";
-        height: 30px;
-        line-height: 30px;
-        padding: 0 15px;
-        font-size: 12px;
-    }
-    
-    .join__path__btn:hover{
-        margin-top: 30px;
-        background-color: #2B2D42;
-        border: 1px solid #2B2D42;
-        color: #FFFFFF;
-        letter-spacing: 0.1em;
-        font-weight: bold;
-        border-radius: 5px;
-        font-family: "Nunito Sans";
-        height: 30px;
-        line-height: 30px;
-        padding: 0 15px;
-        font-size: 12px;
-    }
+    font-size: 14px !important;
 }

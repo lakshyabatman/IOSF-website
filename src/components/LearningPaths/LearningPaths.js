@@ -1,48 +1,47 @@
 import React from "react";
-import "./learningPath.css"
+import "./learningPath.css";
+
+import { Section, Content, Container, Box, Columns, Button } from 'react-bulma-components'
 
 class LearningPaths extends React.Component{
   render() {
     return(
-      <section className="learning__path__section">
-        <div className="learning__path_container container">
-           <h4 className="learning_path_title section__title center-align">Personalised learning paths for devs</h4>
-          <div className="beginnerfriendly__path__container row">
-            <div className="beginnerfriendly__path__banner col l4 m12 s12">
-
+      <Section className="learningpath__section">
+        <Container>
+          <Content>
+            <h2 className="section__title">Personalised Learning Paths for Devs</h2>
+            <div className="learningpath__boxContainer">
+              <Box>
+                <Columns>
+                  <Columns.Column size={5}>
+                    <img src="/img/beginner-fiendly.svg" />
+                  </Columns.Column>
+                  <Columns.Column size={7}>
+                    <h3>Beginner Friendly Path</h3>
+                      <p>This path is specially designed for those who have little or zero experience in computer programming and open source.</p>
+                      <p>We will cover JavaScript, Python and Version Control (Git) form scratch and kick off by contributing to small yet interesting projects.</p>
+                    <Button className="learningpath__getStartedBtn">GET STARTED</Button>
+                  </Columns.Column>
+                </Columns>
+              </Box>
+              <Box>
+                <Columns>
+                <Columns.Column size={7}>
+                  <h3>Hands-on Code Path</h3>
+                     <p>This path is a step further, we will use our programming skills and logic to contribute and build products that will solve a real-life problem.</p>
+                     <p>Contribute to our source code and help us build better products</p>
+                   <Button className="learningpath__getStartedBtn">GET STARTED</Button>
+                  </Columns.Column>
+                  <Columns.Column size={5}>
+                    <img src="/img/advanced-path.svg" />
+                  </Columns.Column>
+                </Columns>
+              </Box>
             </div>
-            <div className="col l7 offset-l1 m12 s12" >
-              <h5>Beginner Friendly Path</h5>
-              <div className="beginnerfriendly__path__content">
-                <ul>
-                  <li>This path is specially designed for those who have little or zero experience in computer programming and open source.</li>
-                  <li>We will cover JavaScript, Python and Version Control (Git) form scratch and kick off by contributing to small yet interesting projects.</li>
-                </ul>
-              </div>
-              <button className="join__path__btn btn z-depth-0">GET STARTED</button>
-            </div>
-          </div>
-          <div className="handson__path_container row">
-            <div className="advancedPathBannerSmall col l4 offset-l1 m12 s12">
+          </Content>
+        </Container>
+      </Section>
 
-            </div>
-              <div className="col l7 m12 s12 ">
-                <h5>Hands-on Code Path</h5>
-                <div className="handson__path_content">
-                  <ul>
-                    <li>This path is a step further, we will use our programming skills and logic to contribute and build products that will solve a real-life problem.</li>
-                    <li>Contribute to our source code and help us build better products</li>
-                  </ul>
-                </div>
-                <button className="join__path__btn btn z-depth-0">GET STARTED</button>
-              </div>
-
-            <div className="advancedPathBanner col l4 offset-l1 m12 s12">
-
-            </div>
-          </div>
-        </div>
-      </section>
     )
   }
 }

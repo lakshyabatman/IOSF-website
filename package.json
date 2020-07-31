@@ -9,6 +9,7 @@
     "materialize-css": "^1.0.0-rc.2",
     "netlify-cli": "^2.58.0",
     "react": "^16.13.1",
+    "react-bulma-components": "^3.4.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
