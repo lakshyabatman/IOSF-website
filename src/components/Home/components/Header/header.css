@@ -56,7 +56,6 @@ header{
 
 @media screen and (max-width: 600px){
     header{
-        background: white;
         padding-top: 70px;
     }
     .header__heroContainer{
@@ -102,5 +101,11 @@ header{
         font-size: 14px !important;
         display: block;
         width: 100%;
+    }
+    .togetherLetsTitle{
+        font-size: 40px !important;
+        text-align: center !important;
+        color: #c0c0c0 !important;
+        text-align: left !important;
     }
 }

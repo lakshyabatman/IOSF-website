@@ -50,3 +50,34 @@
     font-size: 24px !important;
     color: #eeeeee !important
 }
+
+@media screen and (max-width : 600px){
+    .footer blockquote {
+        background-color: rgba(43,45,66) !important;
+        font-size: 18px !important;
+        color: #eeeeee !important;
+        font-style: italic;
+        font-weight: lighter !important;
+        margin-bottom: 70px !important;
+    }
+    .footer blockquote .footer__joinUsBtn{
+        display: block !important;
+        margin-top: 50px !important;
+        width: 100%;
+        margin: 0px auto;
+        font-size: 12px;
+        letter-spacing: 0.1em;
+        font-weight: bold !important;
+        background-color: #ef233c !important;
+        border: 1px solid #ef233c !important;
+        color: white !important;
+    }
+    .footer__socialLinks a{
+        margin: 5px;
+        padding: 5px;
+    }
+    .footer__socialLinks a i{
+        font-size: 20px !important;
+        color: #eeeeee !important
+    }
+}

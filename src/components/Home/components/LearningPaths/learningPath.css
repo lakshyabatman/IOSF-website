@@ -33,3 +33,33 @@
     color: white !important;
     margin-left: 10px;
 }
+
+@media screen and (max-width: 600px){
+    .learningpath__boxContainer .box h3{
+        font-size: 24px !important;
+        font-weight: bolder;
+        color: #4d4d4d!important;
+    }
+    .learningpath__boxContainer .box{
+        background-color: #eeeeee !important;
+        padding: 20px;
+    }
+    .learningpath__boxContainer p{
+        font-size: 18px !important;
+        font-weight: lighter;
+        margin-top: 30px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .learningpath__getStartedBtn{
+        margin-top: 30px;
+        background-color: #2b2d42 !important;
+        border: 1px solid #2b2d42 !important;
+        color: white !important;
+        letter-spacing: 0.1em;
+        font-weight: bolder;
+        font-size: 12px !important;
+        display: block !important;
+        width: 100%;
+    }
+}

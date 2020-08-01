@@ -35,10 +35,10 @@ class Header extends React.Component{
         <Section>
           <Container>
             <Content>
-              <h3 className="section__title togetherLetsTitle">Together Let's</h3>
+              <h3 className="togetherLetsTitle">Together Let's</h3>
             </Content>
             <Columns className="togetherLets__cardContainer">
-              <Columns.Column>
+              <Columns.Column className="togetherLets__card">
                     <Content>
                       <img src="/img/learn_avatar.png" alt=""/>
                       <h3>Learn</h3>

@@ -52,57 +52,42 @@
 }
 
 
-/* .contribute__section{
-    
-}
-.contributeSectionContent{
-    font-size: 24px;
-    text-align: center;
-    color: #4D4D4D;
-    font-weight: lighter;
-}
-.contributeSectionBanner{
-    background-image: url("/img/develop.svg");
-    height: 300px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.productCard{
-    background-color: rgba(217, 228, 232, 0.8);
-    color: #4d4d4d;
-    font-size: 18px;
-    font-weight: lighter;
-    border-top-right-radius: 50px;
-    position: relative;
-    padding-top: 70px;
-}
-
-.productAvatar{
-    position: absolute;
-    left: -50px;
-    top: -50px;
-}
-.product__contribute__btn.btn{
-    font-family: "Nunito Sans";
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    border-radius: 5px;
-}
-
 @media screen and (max-width: 600px){
-    .contributeSectionContent{
-        font-size: 18px;
-        text-align: center;
-        color: #4D4D4D;
-        font-weight: lighter;
+    .product__card .card img {
+        height: 100px !important;
+        width: 100px !important;
     }
-    .contributeSectionBanner{
-        background-image: url("/img/develop.svg");
-        height: 200px;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
+    .product__avatar{
+        position: absolute;
+        top: -30px;
+        left: -30px;
     }
-} */
+    .product__contributeBtn{
+        margin-top: 30px;
+        letter-spacing: 0.1em;
+        display: block !important;
+        width: 100%;
+        font-weight: bolder;
+        font-size: 12px !important;
+    }
+    .product__card .card h6{
+        font-size: 24px;
+        font-weight: bolder;
+        color: #2b2d42 !important;
+        margin-top: 30px;
+    }
+    .product__progressTag{
+        position: absolute;
+        background-color: #3949ab;
+        color: #FFFFFF !important;
+        padding: 8px 12px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        right: -15px;
+        top: 10px;
+        font-size: 12px !important;
+    }
+}
+

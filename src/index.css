@@ -10,15 +10,22 @@
   max-width: 85% !important;
   margin: 0px auto;
 }
+
+/* TYPOGRAPHY STYLES */
 .section__title{
   font-size: 48px !important;
   text-align: center;
   color: #2b2d42 !important;
   padding-top: 20px !important;
-  padding-bottom: 30px !important;
+  padding-bottom: 70px !important;
   font-weight: bolder;
 }
+P{
+  font-size: 18px;
+  font-weight: lighter;
+}
 
+/* BUTTON STYLES */
 .button{
   font-family: "Nunito Sans" !important;
 }
@@ -28,16 +35,19 @@
     max-width: 90% !important;
     margin: 0px auto;
   }
+
+  /* TYPOGRAPHY STYLES */
   .section__title{
-    font-size: 32px !important;
+    font-size: 28px !important;
     text-align: center;
     color: #2b2d42 !important;
     padding-top: 20px !important;
-    padding-bottom: 30px !important;
+    padding-bottom: 50px !important;
     font-weight: bolder;
   }
   p{
     font-size: 16px !important;
+    font-weight: lighter !important;
   }
 }
 
