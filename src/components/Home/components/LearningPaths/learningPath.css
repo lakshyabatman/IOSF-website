@@ -2,17 +2,18 @@
     /* background-color: rgba(217,228,232, 0.5); */
     background-color: #eeeeee;
 }
-.learningpath__boxContainer .box{
+.learningpath__boxContainer .learningpath_box{
     /* background-color: rgba(217,228,232, 0.7) !important; */
     background-color: #eeeeee !important;
     padding: 70px;
 }
-.learningpath__boxContainer .box h3{
-    font-size: 32px !important;
+.learningpath__boxContainer .learningpath_box h3{
+    font-size: 28px !important;
+    font-family: "Poppins" !important;
     font-weight: bolder;
     color: #4d4d4d!important;
 }
-.learningpath__boxContainer p{
+.learningpath__boxContainer .learningpath_box p{
     font-size: 20px !important;
     font-weight: lighter;
     margin-top: 30px;
@@ -34,17 +35,26 @@
     margin-left: 10px;
 }
 
+/* ADVANCED PATH IMAGE */
+.advancedpath__image__large{
+    display: block !important;
+}
+.advancedpath__image__small{
+    display: none !important;
+}
+
 @media screen and (max-width: 600px){
-    .learningpath__boxContainer .box h3{
+    .learningpath__boxContainer .learningpath_box h3{
         font-size: 24px !important;
+        font-family: "Poppins" !important;
         font-weight: bolder;
         color: #4d4d4d!important;
     }
-    .learningpath__boxContainer .box{
+    .learningpath__boxContainer .learningpath_box{
         background-color: #eeeeee !important;
         padding: 20px;
     }
-    .learningpath__boxContainer p{
+    .learningpath__boxContainer .learningpath_box p{
         font-size: 18px !important;
         font-weight: lighter;
         margin-top: 30px;
@@ -61,5 +71,13 @@
         font-size: 12px !important;
         display: block !important;
         width: 100%;
+    }
+
+    /* ADVANCED PATH IMAGE */
+    .advancedpath__image__large{
+        display: none !important;
+    }
+    .advancedpath__image__small{
+        display: block !important;
     }
 }

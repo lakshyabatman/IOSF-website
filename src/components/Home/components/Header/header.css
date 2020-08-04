@@ -13,7 +13,8 @@ header{
 }
 
 .header__heroHeading{
-    font-size: 64px !important;
+    font-size: 56px !important;
+    font-family: "Poppins" !important;
     font-weight: bolder;
     color: #2b2d42 !important;
 }
@@ -37,7 +38,7 @@ header{
     color: white !important;
 }
 .header__heroOurProductsBtn{
-    background-color: white !important;
+    background-color: transparent !important;
     color: #ef233c !important;
     border: 1px solid #ef233c !important;
     border-radius: 50px !important;
@@ -51,12 +52,16 @@ header{
     text-align: left !important;
 }
 .togetherLets__cardContainer{
+    margin-top: 40px !important;
     text-align: center;
+}
+.togetherLets__cardContainer h3{
+    font-family: "Poppins" !important;
 }
 
 @media screen and (max-width: 600px){
     header{
-        padding-top: 70px;
+        padding-top: 100px;
     }
     .header__heroContainer{
         display: block;
@@ -68,6 +73,7 @@ header{
     .header__heroSubheading{
         font-size: 20px;
         font-weight: lighter;
+        margin-top: 50px;
     }
     .header__btnContainer{
         margin-top: 30px;
@@ -87,7 +93,7 @@ header{
         width: 100%;
     }
     .header__heroOurProductsBtn{
-        background-color: white !important;
+        background-color: transparent !important;
         color: #ef233c !important;
         border: 1px solid #ef233c !important;
         border-radius: 50px !important;
