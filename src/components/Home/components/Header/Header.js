@@ -18,7 +18,7 @@ class Header extends React.Component{
                     <p className="header__heroSubheading">At IOSF we have taken a pledge to make open source contribution simplified. Join us in our journey and let's create effective products on our way.</p>
                   </div>
                   <div className="header__btnContainer">
-                    <Button className="header__heroJoinUsBtn" size="medium">JOIN US <i class="fas fa-arrow-right"></i></Button>
+                    <Button className="header__heroJoinUsBtn" size="medium">JOIN US <i className="fas fa-arrow-right"></i></Button>
                     <Button className="header__heroOurProductsBtn" size="medium">OUR PRODUCTS</Button>
                   </div>
                 </Content>

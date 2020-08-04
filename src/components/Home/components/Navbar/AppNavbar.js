@@ -2,9 +2,20 @@ import React from 'react'
 import "./navbar.css"
 
 import { Navbar } from "react-bulma-components";
+import NavModal from './components/NavModal';
 
 
 class AppNavbar extends React.Component{
+
+  constructor(props) {
+    super(props);
+    this.state = { 
+      showNavModal: false,
+     }
+  }
+
+  openNavModal = () => { this.setState( { showNavModal: true })}
+  closeNavModal = () => { this.setState( { showNavModal: false })}
 
   render(){
     return(
@@ -14,7 +25,7 @@ class AppNavbar extends React.Component{
             <Navbar.Item>
               <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
             </Navbar.Item>
-            <Navbar.Burger />
+            <Navbar.Burger onClick={this.openNavModal} />
           </Navbar.Brand>
           <Navbar.Menu>
             <Navbar.Container position="end">
@@ -30,7 +41,8 @@ class AppNavbar extends React.Component{
             </Navbar.Container>
           </Navbar.Menu>
         </Navbar>
-
+        
+        <NavModal showNavModal={this.state.showNavModal} closeNavModal={this.closeNavModal} />
       </div>
       
     )

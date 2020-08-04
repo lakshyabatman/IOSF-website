@@ -18,7 +18,7 @@ class Contribute extends React.Component{
                   <span className="product__progressTag">ON-GOING</span>
                   <h6 className="product__title">Dynamic CLI</h6>
                   <p>A CLI utility that can connect to an external databases, also fetch suggestions from different dev communities like stackoverflow and reddit.</p>
-                  <Button className="product__contributeBtn" size="small"><i class="fab grey-text fa-github"></i> CONTRIBUTE</Button>
+                  <Button className="product__contributeBtn" size="small"><i className="fab grey-text fa-github"></i> CONTRIBUTE</Button>
                 </Card.Content>
               </Card>
               </div>
