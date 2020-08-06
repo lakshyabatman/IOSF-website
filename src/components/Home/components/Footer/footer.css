@@ -1,6 +1,7 @@
 .footer{
     background-color: #2b2d42 !important;
     padding-top: 100px !important;
+    position: relative;
 }
 .footer blockquote {
     background-color: rgba(43,45,66) !important;
@@ -49,6 +50,22 @@
 .footer__socialLinks a i{
     font-size: 24px !important;
     color: #eeeeee !important
+}
+.footer__copyright{
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+}
+.footer__copyright p{
+    color: #eeeeee !important;
+    font-weight: bolder !important;
+    font-family: "Poppins" !important;
+}
+.footer__subscribeBtn{
+    font-weight: bolder;
+    font-family: "Poppins" !important;
+    letter-spacing: 0.1em;
+    color: white !important;
 }
 
 @media screen and (max-width : 600px){

@@ -13,6 +13,10 @@
   margin: 0px auto;
 }
 
+section {
+  padding: 70px 0 70px 0 !important;
+}
+
 /* TYPOGRAPHY STYLES */
 .section__title{
   font-family: "Poppins" !important;
@@ -37,6 +41,10 @@ P{
   .container{
     max-width: 95% !important;
     margin: 0px auto;
+  }
+
+  section {
+    padding: 40px 0 40px 0 !important;
   }
 
   /* TYPOGRAPHY STYLES */

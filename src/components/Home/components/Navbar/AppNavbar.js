@@ -23,7 +23,7 @@ class AppNavbar extends React.Component{
         <Navbar fixed="top">
           <Navbar.Brand>
             <Navbar.Item>
-              <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
+              Indian Open Source Foundation
             </Navbar.Item>
             <Navbar.Burger onClick={this.openNavModal} />
           </Navbar.Brand>

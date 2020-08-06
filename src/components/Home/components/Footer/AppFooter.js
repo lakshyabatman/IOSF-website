@@ -15,7 +15,7 @@ class AppFooter extends React.Component{
               <Button className="footer__joinUsBtn" size="medium">JOIN US <i class="fas fa-arrow-right"></i></Button>
             </blockquote>
             <Columns>
-              <Columns.Column>
+              <Columns.Column size={3}>
                 <h4>Subscribe</h4>
                 <form>
                   <div className="field">
@@ -23,9 +23,10 @@ class AppFooter extends React.Component{
                       <input className="input" placeholder="Enter your email, foo@bar.com" />
                     </div>  
                   </div>
+                  <Button className="footer__subscribeBtn" color="primary" size="small">SUBSCRIBE</Button>
                 </form>
               </Columns.Column>
-              <Columns.Column>
+              <Columns.Column size={4} offset={1}>
               <h4>General Links</h4>
               <ul className="footer__links">
                   <li>
@@ -55,7 +56,7 @@ class AppFooter extends React.Component{
                   </li>
                 </ul>
               </Columns.Column>
-              <Columns.Column>
+              <Columns.Column size={4}>
                 <h4>Connect</h4>
                 <div className="footer__socialLinks">
                 <a href="https://www.facebook.com/iosfindia/" className="btn btn-floating z-depth-0 facebook transparent grey-text"><i class="fab grey-text fa-facebook-f"></i></a>
@@ -66,6 +67,9 @@ class AppFooter extends React.Component{
                 </div>
               </Columns.Column>
             </Columns>
+            <div className="footer__copyright">
+              <p>ping@iosf.com <br />&copy; Indian Open Source Foundation, {date.getFullYear()}</p>
+            </div>
           </Content>
         </Container>
       </Footer>
