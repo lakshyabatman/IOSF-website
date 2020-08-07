@@ -18,7 +18,7 @@ class NavModal extends React.Component {
               <Button onClick={() => this.handleClick("learningpath__section")}>Learning Paths</Button>
               <Button onClick={() => this.handleClick("products__section")}>Our Products</Button>
               <Button>Blogs</Button>
-              <Button className="navModal__joinusBtn">
+              <Button className="navModal__joinusBtn" href="https://toolsiosf.typeform.com/to/KMqzcJHK">
                 JOIN US
               </Button>
             </div>
