@@ -46,7 +46,7 @@ class AppNavbar extends React.Component{
             <Navbar.Item href="#">
               Blog
             </Navbar.Item>
-            <Navbar.Item href="#">
+            <Navbar.Item href="https://toolsiosf.typeform.com/to/KMqzcJHK">
               <Button className="navbar__joinusBtn">
                 JOIN US
               </Button>
