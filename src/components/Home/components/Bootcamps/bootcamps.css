@@ -1,18 +1,17 @@
 .bootcamp__notificationContainer{
-    background-color: rgba(217, 4, 41, 0.9) !important;
-    text-align: center;
+    background-color: rgba(217, 4, 41, 0.8) !important; 
 }
 
 .bootcamp__title{
     color: #ffffff !important;
     font-style: italic;
-    text-align: center;
     font-family: "Poppins" !important;
     font-size: 40px !important;
+    text-decoration: underline;
 }
 
 .bootcamp__content p {
-    font-size: 24px !important;
+    font-size: 22px !important;
     color: white !important;
     font-weight: lighter !important;
 }

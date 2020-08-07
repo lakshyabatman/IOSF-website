@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import { Container, Content, Button, Section, Card, Columns } from 'react-bulma-components';
+import { Container, Content, Button, Section, Columns } from 'react-bulma-components';
 
 import AppNavbar from '../Navbar/AppNavbar';
 

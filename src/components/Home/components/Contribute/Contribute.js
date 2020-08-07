@@ -6,7 +6,7 @@ import { Section, Container, Columns, Card, Button } from 'react-bulma-component
 class Contribute extends React.Component{
   render() {
     return(
-      <Section className="products__section">
+      <Section id="products__section" className="products__section">
         <Container>
           <h2 className="section__title">Contribute to Real-World Projects</h2>
           <Columns>

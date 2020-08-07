@@ -1,15 +1,28 @@
 import React from "react";
-import { Modal, Section } from "react-bulma-components"
+import { Modal, Container, Button } from "react-bulma-components"
+import "./navModal.css"
 
 class NavModal extends React.Component {
 
+  handleClick = (id_name) => {
+    document.getElementById(id_name).scrollIntoView();
+    this.props.closeNavModal();
+  }
+
   render() { 
     return ( 
-      <Modal show={this.props.showNavModal} onClose={this.props.closeNavModal}> 
+      <Modal className="navModal" show={this.props.showNavModal} onClose={this.props.closeNavModal}> 
         <Modal.Content>
-          <Section style={{ backgroundColor: 'white' }}>
-            This is small screen navbar
-          </Section>
+          <Container>
+            <div className="navModal__links">
+              <Button onClick={() => this.handleClick("learningpath__section")}>Learning Paths</Button>
+              <Button onClick={() => this.handleClick("products__section")}>Our Products</Button>
+              <Button>Blogs</Button>
+              <Button className="navModal__joinusBtn">
+                JOIN US
+              </Button>
+            </div>
+          </Container>
         </Modal.Content>
       </Modal>
      );

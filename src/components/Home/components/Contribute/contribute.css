@@ -3,7 +3,7 @@
 }
 
 .product__card .card{
-    padding: 10px;
+    padding: 0px;
 }
 
 .product__card .card img {
@@ -53,16 +53,15 @@
     top: 10px;
 }
 
-
 @media screen and (max-width: 600px){
     .product__card .card img {
         height: 100px !important;
         width: 100px !important;
     }
     .product__avatar{
-        position: absolute;
-        top: -30px;
-        left: -30px;
+        position: relative;
+        top: 0;
+        left: 0;
     }
     .product__title{
         font-family: "Poppins" !important;
@@ -94,7 +93,7 @@
         border-top-left-radius: 20px;
         font-weight: bold;
         letter-spacing: 0.1em;
-        right: -15px;
+        right: -0px;
         top: 10px;
         font-size: 12px !important;
     }

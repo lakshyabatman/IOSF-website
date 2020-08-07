@@ -1,19 +1,19 @@
 import React from "react";
 import "./learningPath.css";
 
-import { Section, Content, Container, Box, Columns, Button } from 'react-bulma-components'
+import { Section, Content, Container, Columns, Button } from 'react-bulma-components'
 
 class LearningPaths extends React.Component{
   render() {
     return(
-      <Section className="learningpath__section">
+      <Section id="learningpath__section" className="learningpath__section">
         <Container>
           <Content>
             <h2 className="section__title">Personalised Learning Paths for Devs</h2>
             <div className="learningpath__boxContainer">
               <Columns className="learningpath_box">
                 <Columns.Column size={5}>
-                  <img src="/img/beginner-fiendly.svg" />
+                  <img src="/img/beginner-fiendly.svg" alt="beginnerfriendly-banner" />
                 </Columns.Column>
                 <Columns.Column size={6} offset={1}>
                   <h3>Beginner Friendly Path</h3>
@@ -23,8 +23,8 @@ class LearningPaths extends React.Component{
                 </Columns.Column>
               </Columns>
               <Columns className="learningpath_box">
-                <Columns.Column className="advancedpath__image__small" size={5} offset={1}>
-                    <img src="/img/advanced-path.svg" />
+                <Columns.Column className="advancedpath__image__small"  size={5} offset={1}>
+                    <img src="/img/advanced-path.svg" alt="advancedpath-banner" />
                 </Columns.Column>
                 <Columns.Column size={6}>
                   <h3>Hands-on Code Path</h3>
@@ -32,8 +32,8 @@ class LearningPaths extends React.Component{
                     <p>Contribute to our source code and help us build better products</p>
                   <Button className="learningpath__getStartedBtn">GET STARTED <i className="fas fa-arrow-right"></i></Button>
                 </Columns.Column>
-                <Columns.Column className="advancedpath__image__large" size={5} offset={1}>
-                  <img src="/img/advanced-path.svg" />
+                <Columns.Column className="advancedpath__image__large"  size={5} offset={1}>
+                  <img src="/img/advanced-path.svg" alt="advancedpath-banner" />
                 </Columns.Column>
               </Columns>
             </div>

@@ -12,7 +12,7 @@ class AppFooter extends React.Component{
           <Content>
             <blockquote>
               Join us as a contributor and associate with us in our journey for making <strong>Open Source Contribution</strong> lit 🔥 and super powerful for the budding and already existing developer community.
-              <Button className="footer__joinUsBtn" size="medium">JOIN US <i class="fas fa-arrow-right"></i></Button>
+              <Button className="footer__joinUsBtn" size="medium">JOIN US <i className="fas fa-arrow-right"></i></Button>
             </blockquote>
             <Columns>
               <Columns.Column size={3}>
@@ -30,27 +30,27 @@ class AppFooter extends React.Component{
               <h4>General Links</h4>
               <ul className="footer__links">
                   <li>
-                    <a className="footer-link grey-text text-lighten-1" href=""
+                    <a className="footer-link grey-text text-lighten-1" href="/"
                     >About</a
                     >
                   </li>
                   <li>
-                    <a className="footer-link grey-text text-lighten-1" href=""
+                    <a className="footer-link grey-text text-lighten-1" href="/"
                     >Work</a
                     >
                   </li>
                   <li>
-                    <a className="footer-link grey-text text-lighten-1 " href=""
+                    <a className="footer-link grey-text text-lighten-1 " href="/"
                     >Join</a
                     >
                   </li>
                   <li>
-                    <a className="footer-link grey-text text-lighten-1" href=""
+                    <a className="footer-link grey-text text-lighten-1" href="/"
                     >Blogs</a
                     >
                   </li>
                   <li>
-                    <a className="footer-link grey-text text-lighten-1" href=""
+                    <a className="footer-link grey-text text-lighten-1" href="/"
                     >Contact</a
                     >
                   </li>
@@ -59,11 +59,11 @@ class AppFooter extends React.Component{
               <Columns.Column size={4}>
                 <h4>Connect</h4>
                 <div className="footer__socialLinks">
-                <a href="https://www.facebook.com/iosfindia/" className="btn btn-floating z-depth-0 facebook transparent grey-text"><i class="fab grey-text fa-facebook-f"></i></a>
-                <a href="https://twitter.com/iosf_india" className="btn btn-floating z-depth-0 twitter transparent grey-text"><i class="fab grey-text fa-twitter"></i></a>
-                <a href="https://www.instagram.com/iosf_india/" className="btn btn-floating z-depth-0 instagram transparent grey-text"><i class="fab grey-text fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/iosf/" className="btn btn-floating z-depth-0 linkedin transparent grey-text"><i class="fab grey-text fa-linkedin"></i></a>
-                <a href="https://github.com/IndianOpenSourceFoundation" className="btn btn-floating z-depth-0 github transparent grey-text"><i class="fab grey-text fa-github"></i></a>
+                <a href="https://www.facebook.com/iosfindia/" className="btn btn-floating z-depth-0 facebook transparent grey-text"><i className="fab grey-text fa-facebook-f"></i></a>
+                <a href="https://twitter.com/iosf_india" className="btn btn-floating z-depth-0 twitter transparent grey-text"><i className="fab grey-text fa-twitter"></i></a>
+                <a href="https://www.instagram.com/iosf_india/" className="btn btn-floating z-depth-0 instagram transparent grey-text"><i className="fab grey-text fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/iosf/" className="btn btn-floating z-depth-0 linkedin transparent grey-text"><i className="fab grey-text fa-linkedin"></i></a>
+                <a href="https://github.com/IndianOpenSourceFoundation" className="btn btn-floating z-depth-0 github transparent grey-text"><i className="fab grey-text fa-github"></i></a>
                 </div>
               </Columns.Column>
             </Columns>
