@@ -47,7 +47,7 @@ class Header extends React.Component{
                     <Content>
                       <img src="/img/learn_avatar.png" alt=""/>
                       <h3>Learn</h3>
-                      <p>There's always a room for learning here. We are contantly learning new skills and concepts at all levels which help us increase the quality of our products.</p>
+                      <p>There's always a room for learning here. We are constantly learning new skills and concepts at all levels which help us increase the quality of our products.</p>
                     </Content>
               </Columns.Column>
               <Columns.Column>
