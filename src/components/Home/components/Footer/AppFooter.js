@@ -12,7 +12,7 @@ class AppFooter extends React.Component{
           <Content>
             <blockquote>
               Join us as a contributor and associate with us in our journey for making <strong>Open Source Contribution</strong> lit 🔥 and super powerful for the budding and already existing developer community.
-              <Button className="footer__joinUsBtn" size="medium">JOIN US <i className="fas fa-arrow-right"></i></Button>
+              <Button className="footer__joinUsBtn" size="medium" renderAs="a" href="https://toolsiosf.typeform.com/to/fl45kmgs">JOIN US <i className="fas fa-arrow-right"></i></Button>
             </blockquote>
             <Columns>
               <Columns.Column size={3}>

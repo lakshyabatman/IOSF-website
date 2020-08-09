@@ -24,7 +24,7 @@ class Bootcamps extends React.Component{
                   </p>
                   
                 </div>
-                <Button className="bootcamp__enrollBtn">ENROLL NOW <i className="fas fa-arrow-right"></i></Button>
+                <Button className="bootcamp__enrollBtn" renderAs="a" href="https://toolsiosf.typeform.com/to/KMqzcJHK">ENROLL NOW <i className="fas fa-arrow-right"></i></Button>
                 </Content>
             </Columns.Column>
           </Columns>
