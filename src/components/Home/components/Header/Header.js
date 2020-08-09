@@ -5,6 +5,11 @@ import { Container, Content, Button, Section, Columns } from 'react-bulma-compon
 import AppNavbar from '../Navbar/AppNavbar';
 
 class Header extends React.Component{
+
+  handleClick = (id_name) => {
+    document.getElementById(id_name).scrollIntoView();
+  } 
+
   render(){
     return(
       <>
@@ -19,7 +24,7 @@ class Header extends React.Component{
                   </div>
                   <div className="header__btnContainer">
                     <Button className="header__heroJoinUsBtn" size="medium" renderAs="a" href="https://toolsiosf.typeform.com/to/KMqzcJHK">JOIN US <i className="fas fa-arrow-right"></i></Button>
-                    <Button className="header__heroOurProductsBtn" size="medium">OUR PRODUCTS</Button>
+                    <Button className="header__heroOurProductsBtn" onClick={() => this.handleClick("products__section")} size="medium">OUR PRODUCTS</Button>
                   </div>
                 </Content>
               </div>
