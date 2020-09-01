@@ -43,7 +43,7 @@ class AppFooter extends React.Component {
               </div>
               <div className="column has-text-centered">
                 <Button
-                  className="footer__joinUsBtn has-background-danger"
+                  className="footer__joinUsBtn"
                   size="medium"
                   renderAs="a"
                   href="https://toolsiosf.typeform.com/to/fl45kmgs"
@@ -123,7 +123,7 @@ class AppFooter extends React.Component {
                 <Columns.Column>
                   <div className="language">
                     <h4>Language</h4>
-                    <div class="select">
+                    <div className="select">
                       <select>
                         <option>English</option>
                       </select>

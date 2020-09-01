@@ -43,8 +43,8 @@
 
 .language {
   position: relative;
-  top: 80px;
-  left: 230px;
+  margin-top: 5rem;
+  margin-left: 14rem;
 }
 
 .footer h4 {
