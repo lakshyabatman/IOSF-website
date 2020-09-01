@@ -43,8 +43,8 @@
 
 .language {
   position: relative;
-  margin-top: 5rem;
-  margin-left: 14rem;
+  margin-top: 4rem;
+  margin-left: 8rem;
 }
 
 .footer h4 {
@@ -54,6 +54,11 @@
 
 .button.is-rounded {
   border-radius: 290486px;
+}
+
+.button__join {
+  background-color: #ef233c !important;
+  border-color: #ef233c !important;
 }
 
 ul {
@@ -77,10 +82,14 @@ ul {
   color: #eeeeee !important;
 }
 .footer__copyright {
-  position: absolute;
-  bottom: -100px;
-  left: 0;
+  padding: 1px;
 }
+
+.justify__text__left {
+  display: flex;
+  justify-content: left;
+}
+
 .footer__copyright p {
   color: #eeeeee !important;
 }
@@ -119,5 +128,10 @@ ul {
   .footer__socialLinks a i {
     font-size: 20px !important;
     color: #eeeeee !important;
+  }
+
+  .language {
+    margin-left: 0;
+    margin-top: 0;
   }
 }
