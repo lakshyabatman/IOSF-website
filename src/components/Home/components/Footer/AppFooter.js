@@ -25,20 +25,22 @@ class AppFooter extends React.Component {
               </Level.Side>
               <Level.Side align="right">
                 <Level.Item>
-                  Back To Top <i className="fas fa-arrow-up"></i>
+                  <span className="has-text-white">Back To Top</span>
+                  <i className="fas fa-arrow-up has-text-white"></i>
                 </Level.Item>
               </Level.Side>
             </Level>
             <hr />
             <div className="rows">
               <div className="column has-text-centered">
-                <p>
+                <p className="has-text-white">
                   Join us as a contributor and associate with us in our journey
-                  for making <strong>Open Source Contribution</strong> lit 🔥
-                  and super
-                  <br />
-                  powerful for the budding and already existing developer
-                  community.
+                  for making
+                  <strong className="has-text-white">
+                    Open Source Contribution
+                  </strong>
+                  lit 🔥 and super &nbsp; powerful for the budding and already
+                  existing developer community.
                 </p>
               </div>
               <div className="column has-text-centered">

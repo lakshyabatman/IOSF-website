@@ -13,17 +13,6 @@
   flex-direction: column;
 }
 
-.footer blockquote {
-  background-color: rgba(43, 45, 66) !important;
-  font-size: 24px !important;
-  color: #eeeeee !important;
-  font-style: italic;
-  font-weight: lighter !important;
-  margin-bottom: 100px !important;
-}
-.footer blockquote strong {
-  color: #eeeeee !important;
-}
 .footer blockquote .footer__joinUsBtn {
   display: block !important;
   margin-top: 50px !important;
@@ -59,6 +48,7 @@
 .button__join {
   background-color: #ef233c !important;
   border-color: #ef233c !important;
+  color: white !important;
 }
 
 ul {
@@ -133,5 +123,11 @@ ul {
   .language {
     margin-left: 0;
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .justify__text__left {
+    justify-content: left !important;
   }
 }
