@@ -10,6 +10,11 @@ import {
 } from "react-bulma-components";
 
 class AppFooter extends React.Component {
+  backToTop = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  };
+
   render() {
     const date = new Date();
 
@@ -25,8 +30,10 @@ class AppFooter extends React.Component {
               </Level.Side>
               <Level.Side align="right">
                 <Level.Item>
-                  <span className="has-text-white">Back To Top</span>
-                  <i className="fas fa-arrow-up has-text-white"></i>
+                  <div onClick={this.backToTop}>
+                    <span className="has-text-white">Back To Top</span>
+                    <i className="fas fa-arrow-up has-text-white"></i>
+                  </div>
                 </Level.Item>
               </Level.Side>
             </Level>
