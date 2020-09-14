@@ -4,8 +4,22 @@ import {
   Columns,
   Level,
 } from "react-bulma-components";
+import SocialLinks from '../data/social-links';
 export class ConnectBar extends Component {
   render() {
+    let socialLinks = SocialLinks.map((link) => {
+      return (
+        <a
+          href={link.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={'btn btn-floating z-depth-0 transparent grey-text ' + link.title.toLowerCase()}
+          >
+          <i className={"fab grey-text fa-"+link.title.toLowerCase()}></i>
+          </a>
+      )
+    })
+
     return (
       <div className="footer__copyright">
               <Level>
@@ -24,36 +38,7 @@ export class ConnectBar extends Component {
                     <Columns.Column size={12}>
                       <h4>Connect</h4>
                       <div className="footer__socialLinks">
-                        <a
-                          href="https://www.facebook.com/iosfindia/"
-                          className="btn btn-floating z-depth-0 facebook transparent grey-text"
-                        >
-                          <i className="fab grey-text fa-facebook-f"></i>
-                        </a>
-                        <a
-                          href="https://twitter.com/iosf_india"
-                          className="btn btn-floating z-depth-0 twitter transparent grey-text"
-                        >
-                          <i className="fab grey-text fa-twitter"></i>
-                        </a>
-                        <a
-                          href="https://www.instagram.com/iosf_india/"
-                          className="btn btn-floating z-depth-0 instagram transparent grey-text"
-                        >
-                          <i className="fab grey-text fa-instagram"></i>
-                        </a>
-                        <a
-                          href="https://www.linkedin.com/company/iosf/"
-                          className="btn btn-floating z-depth-0 linkedin transparent grey-text"
-                        >
-                      <i className="fab grey-text fa-linkedin"></i>
-                    </a>
-                    <a
-                      href="https://github.com/IndianOpenSourceFoundation"
-                      className="btn btn-floating z-depth-0 github transparent grey-text"
-                    >
-                    <i className="fab grey-text fa-github"></i>
-                  </a>
+                        {socialLinks}
                 </div>
               </Columns.Column>
             </Level.Item>
